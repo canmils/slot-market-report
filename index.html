@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slot Market Report: Methodology</title>
+<meta name="description" content="How the monthly Slot Market Gaps & Framework Trends report is built: sources, taxonomy and rules.">
+<style>
+  :root { --bg:#fbfaf7; --ink:#1d1d1b; --muted:#6b6a65; --line:#e4e1d8; --accent:#1565d8; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#141413; --ink:#ecebe6; --muted:#a3a29b; --line:#2e2d2a; --accent:#6ea8ff; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+         font:17px/1.65 Georgia, "Times New Roman", serif; }
+  main { max-width:680px; margin:0 auto; padding:56px 16px 80px; }
+  .kicker { font:600 12px/1 system-ui, sans-serif; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); }
+  h1 { font-size:34px; line-height:1.2; margin:12px 0 8px; }
+  h2 { font:600 15px/1.3 system-ui, sans-serif; letter-spacing:.04em; text-transform:uppercase;
+       margin:44px 0 10px; padding-top:16px; border-top:1px solid var(--line); }
+  p, li { margin:0 0 12px; }
+  ul { padding-left:20px; }
+  a { color:var(--accent); }
+  table { width:100%; border-collapse:collapse; font:15px/1.4 system-ui, sans-serif; margin:8px 0 16px; }
+  th, td { text-align:left; padding:8px 6px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { color:var(--muted); font-weight:600; }
+  .lede { font-size:19px; color:var(--muted); }
+  footer { margin-top:56px; font:13px/1.5 system-ui, sans-serif; color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <div class="kicker">Monthly report · Methodology</div>
+  <h1>Slot Market Gaps &amp; Framework Trends</h1>
+  <p class="lede">A short monthly report for product leads at small and mid slot studios. It answers three questions: what was released, which game frameworks are moving, and where the gaps are.</p>
+
+  <h2>Data sources</h2>
+  <p>All RTP, volatility, max win, mechanic and release date figures in this report come from the free slot database at <a href="https://slot.report/">slot.report</a>, which tracks more than 6,000 games from over 80 providers and is updated daily. We add release details from provider press pages and public industry news, and every number in the report links to its source.</p>
+  <p>We use public information only. We do not use paywalled content, scraped review text, or data from any operator or studio's internal systems.</p>
+
+  <h2>How we classify games</h2>
+  <p>Each release gets one primary framework, based on its published mechanics and features, not its name or theme.</p>
+  <table>
+    <tr><th>Framework</th><th>Typical signals</th></tr>
+    <tr><td>Hold and win</td><td>Locking coins, respins that reset, jackpot tiers</td></tr>
+    <tr><td>Cluster and cascade</td><td>Cluster pays, tumbling symbols, large grids</td></tr>
+    <tr><td>Scatter pays</td><td>Pay anywhere, tumble, multiplier symbols</td></tr>
+    <tr><td>Ways and Megaways</td><td>Variable reel heights, high ways counts</td></tr>
+    <tr><td>Lines and free spins</td><td>Paylines, expanding or sticky symbols in free spins</td></tr>
+    <tr><td>Persistent state</td><td>Meters and upgrades that carry between spins</td></tr>
+    <tr><td>Multiplier grid</td><td>Cell or spot multipliers that grow</td></tr>
+    <tr><td>Other</td><td>Wheel, pick bonus, instant games, or not enough data</td></tr>
+  </table>
+  <p>Theme and volatility are tracked separately, so a gap can be a mix of all three.</p>
+
+  <h2>Rules we follow</h2>
+  <ul>
+    <li>Every market number has a source link next to it.</li>
+    <li>Missing data is marked "No data". We do not estimate figures.</li>
+    <li>Opinions are labelled "Our read:" so facts and views stay apart.</li>
+    <li>A market gap needs a public demand signal and a low recent release count.</li>
+    <li>RTP values are the highest published tier. The RTP at a given casino may be lower.</li>
+  </ul>
+
+  <h2>Limits</h2>
+  <p>This is release and specification data, not revenue data. It shows what studios ship and how games are built. It does not show how well each game performs at operators. Coverage of smaller providers is partial.</p>
+
+  <footer>Updated November 2026.</footer>
+</main>
+</body>
+</html>
